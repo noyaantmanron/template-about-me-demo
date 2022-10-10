@@ -1,6 +1,7 @@
 body {
   background-color: #f5f5f5;
-  color: #2d2c2c
+  color: #2d2c2c;
+  font-family: "Courier New", Courier, monospace;
 }
 
 #container {
@@ -11,7 +12,7 @@ body {
   margin: 0 auto;
 }
 
-#cat {
+#artwork {
   padding: 1rem 0 1rem 0;
 }
 
@@ -19,13 +20,23 @@ body {
   cursor: pointer;
 }
 
-#cat img {
+#artwork img {
+  width: 50%;
   transition: 3s;
   filter: brightness(60%);
 }
 
-#cat img:hover {
+#artwork img:hover {
   cursor: wait;
   transition: 0.3s;
   filter: brightness(100%);
+}
+
+button {
+  background-color: #2d2c2c;
+  color: #f5f5f5;
+  border: medium none;
+  font-family: inherit;
+  font-weight: 500;
+  padding: 10px;
 }
